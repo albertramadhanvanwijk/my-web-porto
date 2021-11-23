@@ -23,13 +23,13 @@
     color: black !important;
     background-color: var(--main-color) !important;
     font-size: small !important;
-    padding: 2px !important;
+    padding: 10px !important;
 }
 
 /* Remaining Items */
 .timeline .timeline_dot {
     color: black !important;
-    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
     padding: 2px !important;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .timeline .timeline_dot_header .MuiSvgIcon-root {
-    font-size: 15px;
+    font-size: 20px;
     color: darkslategray;
 }
 
