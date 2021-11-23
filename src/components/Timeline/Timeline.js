@@ -9,7 +9,6 @@ import WorkIcon from '@mui/icons-material/Work';
 
 import './Timeline.css';
 import { Typography } from '@material-ui/core';
-import { render } from '@testing-library/react';
 
 const CustomTimeline = ({title, children}) => {
     return (
@@ -18,7 +17,7 @@ const CustomTimeline = ({title, children}) => {
       <TimelineItem className={'timeline_firstItem'}>
         <TimelineSeparator>
           <TimelineDot className={'timeline_dot_header'}>
-            {WorkIcon}
+            <WorkIcon />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
